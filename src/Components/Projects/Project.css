@@ -1,0 +1,19 @@
+.project-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.ind-container {
+    width: 350px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    /* box-shadow: ; */
+}
+
+.ind-project {
+    display: flex;
+    flex-direction: column;
+}
