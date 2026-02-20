@@ -1,5 +1,15 @@
-.contact-container{
+.contact-container {
     display: flex;
     gap: 20px;
+    /* margin: auto 0; */
+}
+
+.contact-container a {
+    color: white;
+    text-decoration: none;
+    margin: 0 auto;
+}
+
+.contact-info {
     margin: auto 0;
 }
