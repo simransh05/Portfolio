@@ -1,0 +1,41 @@
+#head {
+    display: flex;
+    flex-direction: column;
+}
+
+.profile {
+    color: lightblue;
+    margin-top: 10px;
+}
+
+#head h1 {
+    margin-bottom: 10px;
+}
+
+#head p {
+    line-height: 1.5;
+}
+
+
+.btns {
+    display: flex;
+    gap: 20px;
+    margin: 10px;
+}
+
+.btns a {
+    border: 1px solid grey;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.resume-btn {
+    background-color: lightblue;
+    color: black;
+    border: none;
+}
+
+.view-project {
+    background-color: blueviolet;
+    border: none;
+}
