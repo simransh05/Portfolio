@@ -15,11 +15,29 @@ function Projects() {
                 />
                 <div className="project-container">
                     {/* connectX app */}
-                    {/* <div className='individual-container'>
-                    <h2>ConnectX</h2>
-                    <a href="https://github.com/simransh05/ConnectX-App" target='_blank'>GitHub</a>
-                    <a href="" target='_blank'>View Live</a>
-                </div> */}
+                    <div className='individual-container'>
+                        <img src="/Gaming-App.png" alt="ConnectX" className='images' />
+                        <h2>ConnectX</h2>
+                        <Divider
+                            style={{
+                                backgroundColor: '#808080'
+                            }}
+                        />
+                        <p> <strong>Description: </strong></p>
+                        <div className="tech-stack">
+                            <span><FaReact
+                                style={{ color: "#61DBFB" }}
+                            /> React</span>
+                            <span><FaNodeJs style={{ color: "#339933" }} /> Node</span>
+                            <span><SiExpress style={{ color: "#FFFFFF" }} /> Express</span>
+                            <span><SiAxios style={{ color: "#8a2be2" }} /> Axios</span>
+                            <span><SiMongodb style={{ color: "#47A248" }} /> MongoDB</span>
+                        </div>
+                        <div className="ind-project">
+                            <a href="" target='_blank' className='link-info'>View Live</a>
+                            <a href="https://github.com/simransh05/ConnectX-App" target='_blank' className='link-info'>GitHub</a>
+                        </div>
+                    </div>
                     <div className='individual-container'>
                         <img src="/Gaming-App.png" alt="gaming app" className='images' />
                         <h2>Gaming Zone</h2>
@@ -48,7 +66,7 @@ function Projects() {
 
                     </div>
                     <div className='individual-container'>
-                        <img src="/Gaming-App.png" alt="gaming app" className='images' />
+                        <img src="/Udemy-App.png" alt="Udemy-App" className='images' />
                         <h2>Udemy App</h2>
                         <Divider
                             style={{
@@ -71,7 +89,7 @@ function Projects() {
                         </div>
                     </div>
                     <div className='individual-container'>
-                        <img src="/Gaming-App.png" alt="gaming app" className='images' />
+                        <img src="/Chat-App.png" alt="Chat App" className='images' />
                         <h2>Chat App</h2>
                         <Divider
                             style={{
@@ -115,7 +133,7 @@ function Projects() {
                         <div className="ind-project">
                             <a href="https://resume-app-frontend.netlify.app/" target='_blank' className='link-info'>View Live</a>
                             <a href="https://github.com/simransh05/Resume-App" target='_blank' className='link-info'>GitHub</a>
-                            
+
                         </div>
                     </div>
                 </div>
