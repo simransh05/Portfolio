@@ -16,14 +16,14 @@ function Projects() {
                 <div className="project-container">
                     {/* connectX app */}
                     <div className='individual-container'>
-                        <img src="/Gaming-App.png" alt="ConnectX" className='images' />
+                        <img src="/Social-Media-App.png" alt="ConnectX" className='images' />
                         <h2>ConnectX</h2>
                         <Divider
                             style={{
                                 backgroundColor: '#808080'
                             }}
                         />
-                        <p> <strong>Description: </strong></p>
+                        <p> <strong>Description: </strong>Full-stack social media platform with real-time interactions, including post creation, likes, comments, messaging, and notifications using MERN stack and WebSockets.</p>
                         <div className="tech-stack">
                             <span><FaReact
                                 style={{ color: "#61DBFB" }}
@@ -131,9 +131,8 @@ function Projects() {
                             <span><SiMongodb style={{ color: "#47A248" }} /> MongoDB</span>
                         </div>
                         <div className="ind-project">
-                            <a href="https://resume-app-frontend.netlify.app/" target='_blank' className='link-info'>View Live</a>
-                            <a href="https://github.com/simransh05/Resume-App" target='_blank' className='link-info'>GitHub</a>
-
+                            <a href="https://nutrition-app-fbbf.onrender.com/" target='_blank' className='link-info'>View Live</a>
+                            <a href="https://github.com/simransh05/Nutrition-App" target='_blank' className='link-info'>GitHub</a>
                         </div>
                     </div>
                 </div>
