@@ -25,6 +25,11 @@
     background: rgba(255, 255, 255, 0.05);
 }
 
+.skill-card:hover {
+    transform: translateY(-5px);
+    transition: 0.3s ease-in-out;
+}
+
 .icon {
     font-size: 22px;
 }
