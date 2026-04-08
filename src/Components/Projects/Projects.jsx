@@ -2,7 +2,7 @@ import React from 'react'
 import './Project.css'
 import { Divider } from '@mui/material'
 import { FaReact, FaNodeJs } from "react-icons/fa";
-import { SiExpress, SiAxios, SiSocketdotio, SiMongodb } from "react-icons/si";
+import { SiExpress, SiSocketdotio, SiMongodb } from "react-icons/si";
 function Projects() {
     return (
         <>
@@ -23,14 +23,14 @@ function Projects() {
                                 backgroundColor: '#808080'
                             }}
                         />
-                        <p> <strong>Description: </strong>Full-stack social media platform with real-time interactions, including post creation, likes, comments, messaging, and notifications using MERN stack and WebSockets.</p>
+                        <p> <strong>Description: </strong>Full-stack social media platform with real-time interactions, including post creation, likes, comments, messaging, and notifications.</p>
                         <div className="tech-stack">
                             <span><FaReact
                                 style={{ color: "#61DBFB" }}
                             /> React</span>
                             <span><FaNodeJs style={{ color: "#339933" }} /> Node</span>
                             <span><SiExpress style={{ color: "#FFFFFF" }} /> Express</span>
-                            <span><SiAxios style={{ color: "#8a2be2" }} /> Axios</span>
+                            <span><SiSocketdotio style={{ color: "#000000" }} /> Socket.io</span>
                             <span><SiMongodb style={{ color: "#47A248" }} /> MongoDB</span>
                         </div>
                         <div className="ind-project">
@@ -55,7 +55,6 @@ function Projects() {
                             /> React</span>
                             <span><FaNodeJs style={{ color: "#339933" }} /> Node</span>
                             <span><SiExpress style={{ color: "#FFFFFF" }} /> Express</span>
-                            <span><SiAxios style={{ color: "#8a2be2" }} /> Axios</span>
                             <span><SiSocketdotio style={{ color: "#000000" }} /> Socket.io</span>
                             <span><SiMongodb style={{ color: "#47A248" }} /> MongoDB</span>
                         </div>
@@ -73,14 +72,13 @@ function Projects() {
                                 backgroundColor: '#808080'
                             }}
                         />
-                        <p><strong>Description: </strong>Full-stack Udemy clone that allows users to browse courses, view details, and simulate course purchases. Built with React, Node.js, Express, and REST APIs.</p>
+                        <p><strong>Description: </strong>Full-stack Udemy clone that allows users to browse courses, view details, and simulate course purchases.</p>
                         <div className="tech-stack">
                             <span><FaReact
                                 style={{ color: "#61DBFB" }}
                             /> React</span>
                             <span><FaNodeJs style={{ color: "#339933" }} /> Node</span>
                             <span><SiExpress style={{ color: "#FFFFFF" }} /> Express</span>
-                            <span><SiAxios style={{ color: "#8a2be2" }} /> Axios</span>
                             <span><SiMongodb style={{ color: "#47A248" }} /> MongoDB</span>
                         </div>
                         <div className="ind-project">
@@ -103,7 +101,6 @@ function Projects() {
                             /> React</span>
                             <span><FaNodeJs style={{ color: "#339933" }} /> Node</span>
                             <span><SiExpress style={{ color: "#FFFFFF" }} /> Express</span>
-                            <span><SiAxios style={{ color: "#8a2be2" }} /> Axios</span>
                             <span><SiSocketdotio style={{ color: "#000000" }} /> Socket.io</span>
                             <span><SiMongodb style={{ color: "#47A248" }} /> MongoDB</span>
                         </div>
@@ -127,7 +124,6 @@ function Projects() {
                             /> React</span>
                             <span><FaNodeJs style={{ color: "#339933" }} /> Node</span>
                             <span><SiExpress style={{ color: "#FFFFFF" }} /> Express</span>
-                            <span><SiAxios style={{ color: "#8a2be2" }} /> Axios</span>
                             <span><SiMongodb style={{ color: "#47A248" }} /> MongoDB</span>
                         </div>
                         <div className="ind-project">
