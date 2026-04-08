@@ -8,8 +8,8 @@
 .images {
     height: 180px;
     width: 100%;
-    border-radius: 7px;
-    object-fit: contain;
+    /* object-fit: contain; */
+    border-radius: 10px;
 }
 
 .individual-container {
@@ -71,4 +71,23 @@
 
 .link-info:first-child {
     background-color: blueviolet;
+}
+
+@media (max-width : 700px) and (min-width : 300px) {
+    .individual-container {
+        height: 575px;
+        width: 300px;
+        margin: 5px;
+    }
+
+    .individual-container p {
+        height: 24%;
+    }
+
+    .link-info {
+        padding: auto 40px;
+    }
+    .tech-stack {
+        margin-top: 0;
+    }
 }
