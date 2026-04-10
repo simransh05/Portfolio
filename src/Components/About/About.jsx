@@ -10,11 +10,7 @@ function About() {
                     sx={{
                         backgroundColor: "#808080"
                     }} />
-                <p>Full Stack Developer with a strong foundation in Java and modern web technologies, focused on building scalable web applications and real-time systems using the MERN stack and WebSockets.
-
-                    Built multiple full-stack projects including a real-time multiplayer game, chat application, and course platform. Contributed to open-source projects like Checkstyle with successfully merged pull requests.
-
-                    Passionate about problem-solving, system design, and continuously improving development skills through hands-on projects.</p>
+                <p>Full Stack Developer with a strong foundation in Java, Data Structures, and modern web technologies. Skilled in building full-stack applications using the MERN stack and WebSockets, including real-time systems like chat and multiplayer applications. Developed multiple projects focusing on backend logic, APIs, and user interaction, and contributed to open-source projects like Checkstyle with successfully merged pull requests. Continuously improving problem-solving and system design skills through hands-on development and practical implementation.</p>
 
             </section>
             <Divider

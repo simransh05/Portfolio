@@ -14,8 +14,7 @@ function Head() {
             <section id="head">
                 <h1>Hi, I'm Simran Sharma</h1>
                 <h2 className='profile'>Full Stack Developer</h2>
-                <p>Full Stack Developer passionate about building scalable web applications and real-time
-                    systems. I enjoy exploring modern technologies and contributing to open-source projects.</p>
+                <p>Full Stack Developer building scalable web applications and real-time systems using the MERN stack. Experienced in developing end-to-end projects and contributing to open-source.</p>
                 <div className='btns'>
                     <a
                         href="/resume.pdf"

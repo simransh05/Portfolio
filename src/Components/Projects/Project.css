@@ -8,7 +8,7 @@
 .images {
     height: 180px;
     width: 100%;
-    /* object-fit: contain; */
+    object-fit: contain;
     border-radius: 10px;
 }
 
@@ -71,6 +71,11 @@
 
 .link-info:first-child {
     background-color: blueviolet;
+}
+
+.disabled {
+    cursor: not-allowed;
+    background-color: lightblue;
 }
 
 @media (max-width : 700px) and (min-width : 300px) {
