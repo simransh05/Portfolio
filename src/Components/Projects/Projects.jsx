@@ -111,7 +111,7 @@ function Projects() {
                         </div>
                         <div className="ind-project">
                             <a target='_blank' className='link-info disabled'>Live Soon</a>
-                            <a href="https://github.com/simransh05/Udemy-App" target='_blank' className='link-info'>GitHub</a>
+                            <a href="https://github.com/simransh05/Nutrition-App" target='_blank' className='link-info'>GitHub</a>
                         </div>
                     </div>
                     <div className='individual-container'>
@@ -134,7 +134,7 @@ function Projects() {
                         </div>
                         <div className="ind-project">
                             <a target='_blank' className='link-info disabled' >Live Soon</a>
-                            <a href="https://github.com/simransh05/Nutrition-App" target='_blank' className='link-info'>GitHub</a>
+                            <a href="https://github.com/simransh05/Job-Tracker-App" target='_blank' className='link-info'>GitHub</a>
                         </div>
                     </div>
                 </div>
