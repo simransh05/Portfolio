@@ -3,7 +3,7 @@ html {
   background: #1A1A40;
   color: white;
   margin: 0 40px;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: 'Inter', sans-serif;
 }
 
 a {
@@ -25,6 +25,7 @@ section {
   html {
     margin: 0 20px;
   }
+
   section {
     margin: 20px;
     margin-top: 0;
