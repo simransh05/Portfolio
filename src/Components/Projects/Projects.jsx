@@ -2,7 +2,7 @@ import React from 'react'
 import './Project.css'
 import { Divider } from '@mui/material'
 import { FaReact, FaNodeJs } from "react-icons/fa";
-import { SiExpress, SiSocketdotio, SiMongodb, SiHandlebarsdotjs , SiMysql } from "react-icons/si";
+import { SiExpress, SiMongodb, SiHandlebarsdotjs, SiMysql } from "react-icons/si";
 
 function Projects() {
     return (
@@ -31,7 +31,6 @@ function Projects() {
                             /> React</span>
                             <span><FaNodeJs style={{ color: "#339933" }} /> Node</span>
                             <span><SiExpress style={{ color: "#FFFFFF" }} /> Express</span>
-                            <span><SiSocketdotio style={{ color: "#000000" }} /> Socket.io</span>
                             <span><SiMongodb style={{ color: "#47A248" }} /> MongoDB</span>
                             <span>SPA</span>
                         </div>
@@ -57,7 +56,6 @@ function Projects() {
                             /> React</span>
                             <span><FaNodeJs style={{ color: "#339933" }} /> Node</span>
                             <span><SiExpress style={{ color: "#FFFFFF" }} /> Express</span>
-                            <span><SiSocketdotio style={{ color: "#000000" }} /> Socket.io</span>
                             <span><SiMongodb style={{ color: "#47A248" }} /> MongoDB</span>
                             <span>SPA</span>
                         </div>
@@ -82,7 +80,6 @@ function Projects() {
                             /> React</span>
                             <span><FaNodeJs style={{ color: "#339933" }} /> Node</span>
                             <span><SiExpress style={{ color: "#FFFFFF" }} /> Express</span>
-                            <span><SiSocketdotio style={{ color: "#000000" }} /> Socket.io</span>
                             <span><SiMongodb style={{ color: "#47A248" }} /> MongoDB</span>
                             <span>SPA</span>
                         </div>
